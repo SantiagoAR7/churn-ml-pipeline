@@ -2,11 +2,13 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import pandas as pd
+import os
 
 app = FastAPI(title="Churn Predictor API", version="1.0")
 
-model = joblib.load("../data/modelo_churn.pkl")
-features = joblib.load("../data/features.pkl")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+model = joblib.load(os.path.join(BASE_DIR, "data", "modelo_churn.pkl"))
+features = joblib.load(os.path.join(BASE_DIR, "data", "features.pkl"))
 
 class ClienteData(BaseModel):
     SeniorCitizen: int

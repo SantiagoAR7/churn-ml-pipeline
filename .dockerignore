@@ -1,0 +1,7 @@
+venv_churn/
+__pycache__/
+*.pyc
+.DS_Store
+mlruns/
+notebooks/
+.git/
