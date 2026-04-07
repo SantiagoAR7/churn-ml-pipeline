@@ -209,11 +209,11 @@ FastAPI genera documentación interactiva automáticamente (Swagger UI), tiene v
 - [x] Feature engineering + manejo de desbalance (SMOTE)
 - [x] Modelo XGBoost con interpretabilidad SHAP
 - [x] API REST con FastAPI
-- [ ] Containerización con Docker
-- [ ] Versionado de experimentos con MLflow
-- [ ] Re-entrenamiento automático con GitHub Actions
-- [ ] Monitoreo de data drift con Evidently
-- [ ] Demo visual con Streamlit
+- [x] Containerización con Docker
+- [x] Versionado de experimentos con MLflow
+- [x] Re-entrenamiento automático con GitHub Actions
+- [x] Monitoreo de data drift con Evidently
+- [x] Demo visual con Streamlit
 
 ---
 
@@ -233,4 +233,4 @@ Analista de Datos & Automatizaciones → ML Engineer
 
 ---
 
-*Proyecto en desarrollo activo — las semanas 4 y 5 del roadmap se irán completando progresivamente.*
+**Proyecto en desarrollo activo — GitHub Actions y Evidently próximamente.**
